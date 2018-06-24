@@ -93,14 +93,25 @@ public class SimpleQuery implements IQuery {
         }
     }
 
+    /**
+     * Initializes all properties without clearing
+     */
     private void initEverything() {
         this.zeroValues(false);
     }
 
+    /**
+     * Clears all the values kept in leaving query in "zero state".
+     */
     private void clearAll() {
         this.zeroValues(true);
     }
 
+    /**
+     * Builds string one-liner from given query values.
+     *
+     * @return SQL query one-liner
+     */
     public String asString() {
         //Add select
         StringBuilder sb = new StringBuilder("SELECT ");

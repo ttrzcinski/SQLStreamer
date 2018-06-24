@@ -1,4 +1,4 @@
-package main.someday_beans;
+package main.simpleQuery;
 
 import java.util.Arrays;
 import java.util.List;
