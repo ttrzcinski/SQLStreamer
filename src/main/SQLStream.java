@@ -4,6 +4,9 @@ import main.enums.Command;
 import main.enums.Completion;
 import main.interfaces.IQuery;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SQLStream implements IQuery {
     //Constants
 
@@ -36,6 +39,10 @@ public class SQLStream implements IQuery {
      */
     private Command typeOfCommand;
 
+    private List<String> columns;
+    private List<String> sources;
+    private List<String> sorts;
+
     //Constructors
     /**
      * Creates new query command.
@@ -65,16 +72,64 @@ public class SQLStream implements IQuery {
         }
     }
 
+    //Inner methods
+    /**
+     * Prepares instance of query with initializing all inner properties.
+     *
+     * @param clear marks, if clearing previous values is set
+     */
+    private void zeroValues(boolean clear) {
+        //Assure NotNull on columns
+        if (this.columns == null) {
+            this.columns = new ArrayList<String>();
+        } else if (clear) {
+            this.columns.clear();
+        }
+        //Assure NotNull on sources
+        if (this.sources == null) {
+            this.sources = new ArrayList<String>();
+        } else if (clear) {
+            this.sources.clear();
+        }
+        //Assure NotNull on sorts
+        if (this.sorts == null) {
+            this.sorts = new ArrayList<String>();
+        } else if (clear) {
+            this.sorts.clear();
+        }
+    }
+
+    /**
+     * Initializes all properties without clearing
+     */
+    private void initEverything() {
+        this.zeroValues(false);
+    }
+
+    /**
+     * Clears all the values kept in leaving query in "zero state".
+     */
+    private void clearAll() {
+        this.zeroValues(true);
+    }
+
+    //API methods
     public void select(String what) {
+        //Check param column name - spaces are meaningless
+        what = what == null ? "" : what.trim();
+        //Processing into query
         if (this.levelOfCompletion == Completion.EMPTY) {
+            //First call to select without query set
             this.sb.append("SELECT ").append(what);
             //Mark level of completion
             this.soStep(Completion.SELECT, Command.QUERY);
         } else if (this.levelOfCompletion == Completion.SELECT) {
-            this.sb.append(what);
+            //First call to select with query set
+            this.sb.append(", ").append(what);
             //Mark level of completion
             this.soStep(Completion.FUNCTION, Command.QUERY);
         } else if (this.levelOfCompletion == Completion.FUNCTION) {
+            //Another call to select with columns given
             this.sb.append(", ").append(what);
             //Mark level of completion
             this.soStep(Completion.FUNCTION, Command.QUERY);
@@ -82,14 +137,18 @@ public class SQLStream implements IQuery {
     }
 
     public void select() {
-        if (this.levelOfCompletion == Completion.EMPTY) {
+        this.select(null);
+        /*if (this.levelOfCompletion == Completion.EMPTY) {
             this.sb.append("SELECT ");
             //Mark level of completion
             this.levelOfCompletion = Completion.SELECT;
             this.typeOfCommand = Command.QUERY;
-        }
+        }*/
     }
 
+    //Expected :SELECT user_id, COUNT(1) from  da_dual ORDER BY user_id;
+    //Actual   :SELECT user_idCOUNT(1)* FROM da_dualORDER BY;
+    //FIXME
     public void countBy(String what) {
         if (this.typeOfCommand == Command.QUERY) {
             if (this.levelOfCompletion == Completion.SELECT) {
@@ -192,9 +251,30 @@ public class SQLStream implements IQuery {
         return this.sb;
     }
 
+    @Override
+    public List<String> getColumns() {
+        return null;
+    }
+
+    @Override
+    public List<String> getSources() {
+        return null;
+    }
+
+    @Override
+    public List<String> getSorts() {
+        return null;
+    }
+
     public String asString() {
+        //Prepare result
+        String result = this.sb != null ? this.sb.toString() : "";
+        //If no column was given to select
+        if (levelOfCompletion == Completion.SELECT && typeOfCommand == Command.QUERY && result.trim().endsWith("SELECT")) {
+            result = "SELECT *";
+        }
         //TODO SHOULD POINT TO STRING.EMPTY_STRING
-        return this.sb != null ? this.sb.toString() : "";
+        return result;
     }
 
     @Override

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="473e86bc-91ac-4599-bf98-a67b1f17a1f6" name="Default Changelist" comment="" />
+    <list default="true" id="473e86bc-91ac-4599-bf98-a67b1f17a1f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/main/simpleQuery/SQLStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/SQLStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/SQLStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/interfaces/IQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/interfaces/IQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/someday_beans/SimpleQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/someday_beans/SimpleQueryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SQLStreamer/SQLStreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SQLStreamer/SelectTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SQLStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SQLStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/SimpleQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/SimpleQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SQLStreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SelectTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,37 +37,37 @@
     <session id="2013136499">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="6" />
           <entry key="iml" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6863" />
+          <entry key="java" value="14536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6863" />
+          <entry key="JAVA" value="14536" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="46" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,33 +75,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/someday_beans/SimpleQuery.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#4023#4024#0" expanded="true" />
-                <element signature="e#4053#4054#0" expanded="true" />
-                <element signature="e#4204#4205#0" expanded="true" />
-                <element signature="e#4232#4233#0" expanded="true" />
-                <element signature="e#4272#4273#0" expanded="true" />
-                <element signature="e#4307#4308#0" expanded="true" />
-                <element signature="e#4359#4360#0" expanded="true" />
-                <element signature="e#4397#4398#0" expanded="true" />
-                <element signature="e#4437#4438#0" expanded="true" />
-                <element signature="e#4472#4473#0" expanded="true" />
-                <element signature="e#4524#4525#0" expanded="true" />
-                <element signature="e#4562#4563#0" expanded="true" />
-                <element signature="e#4600#4601#0" expanded="true" />
-                <element signature="e#4633#4634#0" expanded="true" />
-                <element signature="e#4681#4682#0" expanded="true" />
-                <element signature="e#4715#4716#0" expanded="true" />
+                <element signature="e#2321#2329#0" expanded="true" />
+                <element signature="e#2629#2637#0" expanded="true" />
+                <element signature="e#3188#3196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +108,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,10 +118,28 @@
     <findStrings>
       <find>EMPTY S</find>
       <find>@org.junit.</find>
+      <find>;;</find>
+      <find>List&lt;</find>
+      <find>public void chopBy</find>
+      <find>this.listChopper.chopBy</find>
+      <find>String toChop</find>
+      <find>lineBinder.bindList(toChop)</find>
+      <find>List&lt;String&gt; result = this</find>
+      <find>Chopper should return</find>
     </findStrings>
     <replaceStrings>
       <replace>@</replace>
+      <replace>;</replace>
+      <replace>public void bindList</replace>
+      <replace>this.lineBinder.bindList</replace>
+      <replace>List&lt;String&gt; toBind</replace>
+      <replace>lineBinder.bindList(toBind)</replace>
+      <replace>String result = this</replace>
+      <replace>Binder should return</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,15 +149,26 @@
         <option value="$PROJECT_DIR$/src/com/ttrzcinski/SQLStreamTest.java" />
         <option value="$PROJECT_DIR$/src/main/SQLStreamTest.java" />
         <option value="$PROJECT_DIR$/src/com/ttrzcinski/test/SQLStreamTest.java" />
-        <option value="$PROJECT_DIR$/test/SQLStreamTest.java" />
         <option value="$PROJECT_DIR$/src/main/enums/Completion.java" />
         <option value="$PROJECT_DIR$/src/main/enums/Command.java" />
-        <option value="$PROJECT_DIR$/test/SelectTests.java" />
         <option value="$PROJECT_DIR$/src/main/someday_beans/SimpleQueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/interfaces/IQuery.java" />
         <option value="$PROJECT_DIR$/src/main/someday_beans/SimpleQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/someday_beans/SimpleQueryProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/simpleQuery/SimpleQueryProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java" />
+        <option value="$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java" />
+        <option value="$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java" />
+        <option value="$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java" />
+        <option value="$PROJECT_DIR$/test/SelectTests.java" />
         <option value="$PROJECT_DIR$/src/main/SQLStream.java" />
+        <option value="$PROJECT_DIR$/test/SQLStreamTest.java" />
+        <option value="$PROJECT_DIR$/test/main/simpleQuery/SQLStreamTest.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java" />
+        <option value="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java" />
       </list>
     </option>
   </component>
@@ -133,158 +182,163 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-115" />
+    <option name="y" value="68" />
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="24-6-2018">
-        <observation name="false" value="234,0" />
+        <observation name="false" value="367,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="20,0" />
-        <observation name="false" value="214,0" />
+        <observation name="UNDEFINED" value="25,0" />
+        <observation name="false" value="342,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="24-6-2018">
-        <observation name="false" value="234,0" />
+        <observation name="false" value="367,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="24-6-2018">
-        <observation name="0" value="91,0" />
-        <observation name="UNDEFINED" value="143,0" />
+        <observation name="0" value="194,0" />
+        <observation name="UNDEFINED" value="173,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="83,0" />
-        <observation name="true" value="136,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="91,0" />
+        <observation name="true" value="267,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="141,0" />
-        <observation name="true" value="78,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="218,0" />
+        <observation name="true" value="140,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="142,0" />
-        <observation name="true" value="77,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="224,0" />
+        <observation name="true" value="134,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="133,0" />
-        <observation name="true" value="86,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="220,0" />
+        <observation name="true" value="138,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="169,0" />
-        <observation name="true" value="50,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="255,0" />
+        <observation name="true" value="103,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="24-6-2018">
-        <observation name="false" value="234,0" />
+        <observation name="false" value="366,0" />
+        <observation name="true" value="1,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="24-6-2018">
-        <observation name="NORMAL" value="219,0" />
-        <observation name="UNDEFINED" value="15,0" />
+        <observation name="NORMAL" value="358,0" />
+        <observation name="UNDEFINED" value="9,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="expected" value="44,0" />
-        <observation name="maybeExpected" value="13,0" />
-        <observation name="normal" value="159,0" />
-        <observation name="ofDefaultType" value="3,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="expected" value="97,0" />
+        <observation name="maybeExpected" value="31,0" />
+        <observation name="normal" value="220,0" />
+        <observation name="ofDefaultType" value="10,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="classNameOrGlobalStatic" value="40,0" />
-        <observation name="expectedTypeVariable" value="20,0" />
-        <observation name="normal" value="102,0" />
-        <observation name="probableKeyword" value="10,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="classNameOrGlobalStatic" value="64,0" />
+        <observation name="expectedTypeArgument" value="4,0" />
+        <observation name="expectedTypeConstant" value="1,0" />
+        <observation name="expectedTypeVariable" value="34,0" />
+        <observation name="normal" value="149,0" />
+        <observation name="probableKeyword" value="15,0" />
         <observation name="suitableClass" value="1,0" />
-        <observation name="variable" value="46,0" />
+        <observation name="unlikelyClass" value="1,0" />
+        <observation name="variable" value="89,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="unknown" value="219,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="unknown" value="358,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="false" value="38,0" />
-        <observation name="null" value="178,0" />
-        <observation name="true" value="3,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="false" value="69,0" />
+        <observation name="null" value="288,0" />
+        <observation name="true" value="1,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="applicableByKind" value="2,0" />
-        <observation name="unknown" value="217,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="unknown" value="358,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="70,0" />
-        <observation name="delegation" value="1,0" />
-        <observation name="normal" value="163,0" />
+        <observation name="UNDEFINED" value="61,0" />
+        <observation name="delegation" value="3,0" />
+        <observation name="normal" value="298,0" />
+        <observation name="recursive" value="5,0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="24-6-2018">
-        <observation name="cancelled" value="1447,0" />
-        <observation name="explicitSelect" value="78,0" />
-        <observation name="typedSelect" value="156,0" />
+        <observation name="cancelled" value="2746,0" />
+        <observation name="explicitSelect" value="168,0" />
+        <observation name="typedSelect" value="199,0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="24-6-2018">
-        <observation name="BASIC" value="299,0" />
+        <observation name="BASIC" value="447,0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="24-6-2018">
-        <observation name="count" value="1681,0" />
+        <observation name="count" value="3113,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="24-6-2018">
-        <observation name="average" value="0,111349" />
-        <observation name="count" value="467,0" />
+        <observation name="average" value="0,171896" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="1,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,06713" />
+        <observation name="variance" value="0,123168" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="24-6-2018">
         <observation name="average" value="0,0" />
-        <observation name="count" value="467,0" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -292,95 +346,95 @@
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="211,0" />
-        <observation name="average" value="-16,511111" />
-        <observation name="count" value="45,0" />
+        <observation name="UNDEFINED" value="271,0" />
+        <observation name="average" value="-42,251309" />
+        <observation name="count" value="191,0" />
         <observation name="max" value="0,0" />
-        <observation name="min" value="-45,0" />
-        <observation name="variance" value="181,599958" />
+        <observation name="min" value="-183,0" />
+        <observation name="variance" value="2077,761504" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="-0,059497" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="-0,027972" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,045923" />
+        <observation name="variance" value="0,023811" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="24-6-2018">
-        <observation name="average" value="0,35546" />
-        <observation name="count" value="467,0" />
-        <observation name="max" value="55,0" />
+        <observation name="average" value="0,12824" />
+        <observation name="count" value="733,0" />
+        <observation name="max" value="15,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="11,727918" />
+        <observation name="variance" value="1,053355" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="24-6-2018">
-        <observation name="average" value="-1097,578158" />
-        <observation name="count" value="467,0" />
+        <observation name="average" value="-1073,195089" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1203,0" />
-        <observation name="variance" value="27863,166235" />
+        <observation name="variance" value="62705,982385" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="24-6-2018">
-        <observation name="average" value="-0,008565" />
-        <observation name="count" value="467,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="0,0" />
-        <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,00441" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="117,84897" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="130,34965" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="300,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="15056,866073" />
+        <observation name="variance" value="16931,550759" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="1,574371" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="2,153846" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="8,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="8,593303" />
+        <observation name="variance" value="10,675801" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="0,787185" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="0,830769" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="2,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,757892" />
+        <observation name="variance" value="0,893193" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="0,494279" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="0,646154" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="2,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,406082" />
+        <observation name="variance" value="0,749322" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="24-6-2018">
         <observation name="average" value="0,0" />
-        <observation name="count" value="467,0" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -388,38 +442,38 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="24-6-2018">
-        <observation name="average" value="5,366167" />
-        <observation name="count" value="467,0" />
+        <observation name="average" value="6,068213" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="18,0" />
         <observation name="min" value="1,0" />
-        <observation name="variance" value="6,233722" />
+        <observation name="variance" value="10,048575" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="-0,059497" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="-0,027972" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-1,0" />
-        <observation name="variance" value="0,045923" />
+        <observation name="variance" value="0,023811" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
-        <observation name="average" value="-59,437071" />
-        <observation name="count" value="437,0" />
+        <observation name="UNDEFINED" value="9,0" />
+        <observation name="average" value="-27,941259" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="-999,0" />
-        <observation name="variance" value="45831,031118" />
+        <observation name="variance" value="23760,677662" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="15,0" />
+        <observation name="UNDEFINED" value="9,0" />
         <observation name="average" value="0,0" />
-        <observation name="count" value="437,0" />
+        <observation name="count" value="715,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -428,7 +482,7 @@
     <factor id="doubleFeature:sorter">
       <dailyData date="24-6-2018">
         <observation name="average" value="1,0" />
-        <observation name="count" value="467,0" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="1,0" />
         <observation name="min" value="1,0" />
         <observation name="variance" value="0,0" />
@@ -436,57 +490,58 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="24-6-2018">
-        <observation name="UNDEFINED" value="175,0" />
-        <observation name="average" value="-3,102564" />
-        <observation name="count" value="117,0" />
+        <observation name="UNDEFINED" value="304,0" />
+        <observation name="average" value="-3,48" />
+        <observation name="count" value="125,0" />
         <observation name="max" value="-3,0" />
         <observation name="min" value="-5,0" />
-        <observation name="variance" value="0,12453" />
+        <observation name="variance" value="0,588567" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="24-6-2018">
-        <observation name="average" value="2011,396146" />
-        <observation name="count" value="467,0" />
+        <observation name="average" value="1771,293315" />
+        <observation name="count" value="733,0" />
         <observation name="max" value="10000,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="12770382,446398" />
+        <observation name="variance" value="11440310,086401" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="24-6-2018">
-        <observation name="0" value="67,0" />
-        <observation name="1" value="5,0" />
-        <observation name="3" value="1,0" />
-        <observation name="4" value="1,0" />
-        <observation name="5" value="2,0" />
-        <observation name="55" value="1,0" />
-        <observation name="6" value="1,0" />
+        <observation name="0" value="148,0" />
+        <observation name="1" value="14,0" />
+        <observation name="15" value="1,0" />
+        <observation name="2" value="3,0" />
+        <observation name="5" value="1,0" />
+        <observation name="7" value="1,0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="24-6-2018">
-        <observation name="total" value="58,0" />
-        <observation name="withMnemonics" value="4,0" />
+        <observation name="total" value="128,0" />
+        <observation name="withMnemonics" value="5,0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
       <dailyData date="24-6-2018">
-        <observation name="0" value="8,0" />
-        <observation name="1" value="12,0" />
-        <observation name="14" value="2,0" />
-        <observation name="2" value="15,0" />
-        <observation name="3" value="28,0" />
-        <observation name="4" value="7,0" />
+        <observation name="0" value="20,0" />
+        <observation name="1" value="20,0" />
+        <observation name="12" value="1,0" />
+        <observation name="2" value="48,0" />
+        <observation name="3" value="51,0" />
+        <observation name="4" value="13,0" />
         <observation name="5" value="3,0" />
-        <observation name="6" value="1,0" />
-        <observation name="9" value="2,0" />
+        <observation name="6" value="2,0" />
+        <observation name="7" value="4,0" />
+        <observation name="8" value="5,0" />
+        <observation name="9" value="1,0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="24-6-2018">
-        <observation name="average" value="195,216049" />
-        <observation name="count" value="486,0" />
+        <observation name="average" value="202,483824" />
+        <observation name="count" value="680,0" />
       </dailyData>
     </factor>
   </component>
@@ -495,6 +550,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -518,20 +575,39 @@
               <item name="SQLStreamer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="someday_beans" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLStreamer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SQLStreamer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SQLStreamer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SQLStreamer" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SQLStreamer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SQLStreamer" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLStreamer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SQLStreamer" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,10 +616,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529854926242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529869430152" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/main/simpleQuery" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -551,7 +628,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.simpleQuery.utils" />
       <recent name="com.ttrzcinski" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.simpleQuery" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -572,7 +653,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SelectTests.selectCombining">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="SQLStreamer" />
@@ -586,7 +667,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in SQLStreamer (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in SQLStreamer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SQLStreamer" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -594,46 +675,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in SQLStreamer (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SQLStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SQLStreamer" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="SQLStreamTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SQLStreamTest.endWithSemicolor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SQLStreamer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelectTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.simpleQuery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.simpleQuery" />
+      <option name="MAIN_CLASS_NAME" value="main.simpleQuery.SQLStreamTest" />
+      <option name="METHOD_NAME" value="endWithSemicolor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTests.selectOneParamEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectTests.selectCombining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SQLStreamer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelectTests" />
-      <option name="METHOD_NAME" value="selectOneParamEmpty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.simpleQuery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.simpleQuery" />
+      <option name="MAIN_CLASS_NAME" value="main.simpleQuery.SelectTests" />
+      <option name="METHOD_NAME" value="selectCombining" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in SQLStreamer (1)" />
-      <item itemvalue="JUnit.All in SQLStreamer (3)" />
-      <item itemvalue="JUnit.SelectTests" />
-      <item itemvalue="JUnit.SelectTests.selectOneParamEmpty" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SQLStreamTest" />
+      <item itemvalue="JUnit.All in SQLStreamer" />
+      <item itemvalue="JUnit.SQLStreamTest.endWithSemicolor" />
+      <item itemvalue="JUnit.SelectTests.selectCombining" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectTests.selectCombining" />
+        <item itemvalue="JUnit.All in SQLStreamer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in SQLStreamer (1)" />
-        <item itemvalue="JUnit.SelectTests.selectOneParamEmpty" />
-        <item itemvalue="JUnit.SelectTests" />
-        <item itemvalue="JUnit.All in SQLStreamer (3)" />
+        <item itemvalue="JUnit.SQLStreamTest.endWithSemicolor" />
+        <item itemvalue="JUnit.SQLStreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -649,47 +744,60 @@
       <updated>1529699305066</updated>
       <workItem from="1529699307141" duration="6412000" />
       <workItem from="1529780132088" duration="469000" />
-      <workItem from="1529850117634" duration="4775000" />
+      <workItem from="1529850117634" duration="7919000" />
+      <workItem from="1529858364201" duration="10908000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_SQLStreamer - 2018.06.22 at 23h 31m 49s.xml">
+    <history-entry file="SQLStreamTest - 2018.06.24 at 21h 15m 43s.xml">
+      <configuration name="SQLStreamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SQLStreamTest - 2018.06.24 at 21h 27m 50s.xml">
+      <configuration name="SQLStreamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SQLStreamer - 2018.06.24 at 21h 28m 07s.xml">
       <configuration name="All in SQLStreamer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SQLStreamer - 2018.06.22 at 23h 33m 07s.xml">
+    <history-entry file="All_in_SQLStreamer - 2018.06.24 at 21h 29m 48s.xml">
       <configuration name="All in SQLStreamer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SQLStreamer_(1) - 2018.06.22 at 23h 33m 48s.xml">
-      <configuration name="All in SQLStreamer (1)" configurationId="JUnit" />
+    <history-entry file="SQLStreamTest_endWithSemicolor - 2018.06.24 at 21h 30m 14s.xml">
+      <configuration name="SQLStreamTest.endWithSemicolor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SQLStreamer_(1) - 2018.06.22 at 23h 37m 31s.xml">
-      <configuration name="All in SQLStreamer (1)" configurationId="JUnit" />
+    <history-entry file="All_in_SQLStreamer - 2018.06.24 at 21h 30m 43s.xml">
+      <configuration name="All in SQLStreamer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SQLStreamer_(2) - 2018.06.22 at 23h 39m 17s.xml">
-      <configuration name="All in SQLStreamer (2)" configurationId="JUnit" />
+    <history-entry file="SQLStreamTest_orderBy - 2018.06.24 at 21h 32m 43s.xml">
+      <configuration name="SQLStreamTest.orderBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SQLStreamer_(3) - 2018.06.22 at 23h 41m 03s.xml">
-      <configuration name="All in SQLStreamer (3)" configurationId="JUnit" />
+    <history-entry file="All_in_SQLStreamer - 2018.06.24 at 21h 33m 11s.xml">
+      <configuration name="All in SQLStreamer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTests - 2018.06.22 at 23h 41m 41s.xml">
-      <configuration name="SelectTests" configurationId="JUnit" />
+    <history-entry file="All_in_SQLStreamer - 2018.06.24 at 21h 42m 17s.xml">
+      <configuration name="All in SQLStreamer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectTests_selectOneParamEmpty - 2018.06.22 at 23h 42m 44s.xml">
-      <configuration name="SelectTests.selectOneParamEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SQLStreamer_(1) - 2018.06.22 at 23h 56m 13s.xml">
-      <configuration name="All in SQLStreamer (1)" configurationId="JUnit" />
+    <history-entry file="SelectTests_selectCombining - 2018.06.24 at 21h 43m 16s.xml">
+      <configuration name="SelectTests.selectCombining" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11656000" />
+    <option name="totallyTimeSpent" value="25708000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17185822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -699,18 +807,18 @@
       <window_info id="Learn" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.3295583" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49409238" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946293" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.3295583" />
       <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785176" weight="0.3295583" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" visible="true" weight="0.3295583" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50590765" side_tool="true" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49838883" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946293" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973147" />
@@ -721,45 +829,24 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Learn" order="5" weight="0.32975295" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.24973147" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Analysis" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32993197" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24973147" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/main/simpleQuery/SQLStreamTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
@@ -786,16 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SQLStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/enums/Completion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -810,30 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SelectTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/someday_beans/SimpleQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -841,47 +894,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/interfaces/IQuery.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/com/sun/xml/internal/ws/policy/privateutil/PolicyUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="138">
+          <caret line="310" column="82" selection-start-line="310" selection-start-column="46" selection-end-line="310" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/someday_beans/SimpleQuery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/interfaces/IQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="609">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/SimpleQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1251">
+          <caret line="114" column="30" lean-forward="true" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#4023#4024#0" expanded="true" />
-            <element signature="e#4053#4054#0" expanded="true" />
-            <element signature="e#4204#4205#0" expanded="true" />
-            <element signature="e#4232#4233#0" expanded="true" />
-            <element signature="e#4272#4273#0" expanded="true" />
-            <element signature="e#4307#4308#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-            <element signature="e#4472#4473#0" expanded="true" />
-            <element signature="e#4524#4525#0" expanded="true" />
-            <element signature="e#4562#4563#0" expanded="true" />
-            <element signature="e#4600#4601#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4715#4716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="412" column="6" selection-start-line="412" selection-start-column="5" selection-end-line="412" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SQLStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="5384" column="21" selection-start-line="5384" selection-start-column="21" selection-end-line="5384" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/SQLStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -890,10 +1015,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="46" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2321#2329#0" expanded="true" />
+            <element signature="e#2629#2637#0" expanded="true" />
+            <element signature="e#3188#3196#0" expanded="true" />
           </folding>
         </state>
       </provider>

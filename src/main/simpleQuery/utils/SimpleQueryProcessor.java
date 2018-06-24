@@ -1,4 +1,4 @@
-package main.simpleQuery;
+package main.simpleQuery.utils;
 
 import main.interfaces.IQuery;
 

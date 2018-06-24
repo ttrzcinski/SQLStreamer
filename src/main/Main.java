@@ -1,15 +1,15 @@
 package main;
 
-import main.enums.Command;
 import main.interfaces.IQuery;
-import main.someday_beans.SimpleQuery;
-import main.someday_beans.SimpleQueryBuilder;
+import main.simpleQuery.SimpleQuery;
+import main.simpleQuery.utils.SimpleQueryBuilder;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
+    //TODO edit java classes patterns in the IDE in order to add javadoc from templates with basic description.
 
+    //TODO ADD JUNITS TO THIS ONE - HOW TO TEST CONSOLE ?
     private static void show(IQuery query) {
         //In the wind of tests..
         if (query != null) {
@@ -28,17 +28,22 @@ public class Main {
     public static void main(String[] args) {
         //TODO prepare parametrization and it's processing
 
-	    //TODO Prepare simple select object
+	    //Prepare simple select object
         //SQLStream sqlStream = new SQLStream(Command.QUERY);//);
         //sqlStream.select();
         //sqlStream.select("*");
         //sqlStream.from("DA_TABLE");
         //sqlStream.endWithSemicolor();
         SimpleQuery query = new SimpleQueryBuilder()
-                                //.select("some_column")
-                                .select(Arrays.asList("some_column"))
+                                .select("some_column")
+                                .select(Arrays.asList("other_column"))
+                                .select("COUNT(the_column)")
                                 .from("table_1")
+                                .from("table_2")
+                                .from("table_N")
                                 .orderBy("id")
+                                .orderBy("uuid")
+                                .orderBy("the_last_column")
                                 .build();
 
         //Show query on console
