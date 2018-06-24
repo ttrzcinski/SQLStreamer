@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="473e86bc-91ac-4599-bf98-a67b1f17a1f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/main/simpleQuery/SQLStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/SQLStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/SQLStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/interfaces/IQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQLStreamer/main/interfaces/IQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/someday_beans/SimpleQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQLStreamer/main/someday_beans/SimpleQueryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SQLStreamer/SQLStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SQLStreamer/SelectTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SQLStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SQLStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/SimpleQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/SimpleQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/LineBinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/ListChopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SQLStreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SelectTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/IntegrationLineBinderNListChopperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/LineBinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="473e86bc-91ac-4599-bf98-a67b1f17a1f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +15,14 @@
         <counts>
           <entry key="class" value="6" />
           <entry key="iml" value="1" />
-          <entry key="java" value="68" />
+          <entry key="java" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,38 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="46" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2321#2329#0" expanded="true" />
-                <element signature="e#2629#2637#0" expanded="true" />
-                <element signature="e#3188#3196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -616,7 +565,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529869430152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529869495001" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -745,7 +694,7 @@
       <workItem from="1529699307141" duration="6412000" />
       <workItem from="1529780132088" duration="469000" />
       <workItem from="1529850117634" duration="7919000" />
-      <workItem from="1529858364201" duration="10908000" />
+      <workItem from="1529858364201" duration="11086000" />
     </task>
     <servers />
   </component>
@@ -782,7 +731,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25708000" />
+    <option name="totallyTimeSpent" value="25886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,7 +744,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17185822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -807,15 +755,15 @@
       <window_info id="Learn" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49409238" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49409238" weight="0.3295583" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946293" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.3295583" />
       <window_info anchor="bottom" id="Analysis" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785176" weight="0.3295583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49731472" visible="true" weight="0.3295583" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50590765" side_tool="true" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026853" side_tool="true" visible="true" weight="0.3295583" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49838883" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946293" weight="0.3295583" />
@@ -925,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/utils/ListChopperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1013,16 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/main/simpleQuery/SelectTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1033,15 +964,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/simpleQuery/utils/SimpleQueryBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="-441">
           <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2321#2329#0" expanded="true" />
             <element signature="e#2629#2637#0" expanded="true" />
             <element signature="e#3188#3196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
